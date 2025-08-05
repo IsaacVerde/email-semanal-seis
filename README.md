@@ -30,7 +30,7 @@ Este projeto foi criado por **Isaac Verde/Beatmaker e Produtor Neew Zo Beats** c
 
 Você pode visualizar uma versão ao vivo e interativa deste e-mail sendo renderizada diretamente no navegador através do link abaixo:
 
-**[Clique aqui para ver a prévia ao vivo](URL_DO_SEU_GITHUB_PAGES_AQUI)**
+**[Clique aqui para ver a prévia ao vivo](https://isaacverde.github.io/email-semanal-seis/)**
 
 *(Instruções: Para ativar, vá em Settings > Pages no seu repositório e configure a branch `main` como fonte.)*
 
