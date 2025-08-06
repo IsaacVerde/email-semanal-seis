@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portifolio Com HTML e CSS</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">Portifolio</a>
+      <ul class="menuTres">
+        <li><a href="./index.html" class="active">Inicio</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./projetos.html">Projetos</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+
+    <div class="bars-animation">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <section class="home3">
+      <div class="home-info3">
+        <div class="projetos">
+          <h1 class="meusProjetos">
+            Meus Projetos
+          </h1>
+          <p class="lead text-body-secondary">
+            Todos os meus projetos pessoais foram desenvolvidos com dedicação e
+            curiosidade, contando apenas com recursos disponíveis no YouTube e
+            algumas ferramentas. Cada trabalho reflete meu esforço em aprender e
+            crescer, explorando ideias e soluções criativas.
+          </p>
+        
+    
+            <a href="#" class="btn">Ver Projetos</a>
+            <a href="https://wa.me/+55011990157588" class="btn">Entre em Contato</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="filtros">
+      <button class="btn-filtro" data-filter="all">Todos</button>
+      <button class="btn-filtro" data-filter="calculadora">Calculadoras</button>
+      <button class="btn-filtro" data-filter="utilidade">Utilitários</button>
+      <button class="btn-filtro" data-filter="galeria">Galeria</button>
+      <button class="btn-filtro" data-filter="templatesEmail">Templates E-mail</button>
+    </div>
+
+    <!--PROJETOS PARA CHAMADA DO JAVA SCRIPT-->
+    <main>
+      <section id="exibirProjetos">
+
+        <div class="projetos-container"></div>
+
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
